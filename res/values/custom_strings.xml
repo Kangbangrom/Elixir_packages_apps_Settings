@@ -113,4 +113,6 @@
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
 
+    <!-- About device screen, Build date -->
+    <string name="build_date">Build date</string>
 </resources>
