@@ -115,4 +115,7 @@
 
     <!-- About device screen, Build date -->
     <string name="build_date">Build date</string>
+  
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
 </resources>
