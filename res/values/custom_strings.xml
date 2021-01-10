@@ -164,4 +164,9 @@
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
+	    
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 </resources>
