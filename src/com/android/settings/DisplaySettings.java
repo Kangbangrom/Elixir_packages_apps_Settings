@@ -55,6 +55,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 public class DisplaySettings extends DashboardFragment implements OnPreferenceChangeListener {
     private static final String TAG = "DisplaySettings";
 
+    private static final String KEY_HIGH_TOUCH_POLLING_RATE = "high_touch_polling_rate_enable";
     private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity_enable";
 
     private SwitchPreference mPitchPreference;
@@ -145,6 +146,10 @@ public class DisplaySettings extends DashboardFragment implements OnPreferenceCh
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
                     LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+                    if (!hardware.isSupported(
+                            LineageHardwareManager.FEATURE_HIGH_TOUCH_POLLING_RATE)) {
+                        keys.add(KEY_HIGH_TOUCH_POLLING_RATE);
+                    }
                     if (!hardware.isSupported(
                             LineageHardwareManager.FEATURE_HIGH_TOUCH_SENSITIVITY)) {
                         keys.add(KEY_HIGH_TOUCH_SENSITIVITY);
