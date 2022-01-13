@@ -34,4 +34,8 @@
     <!-- Show About Phone instead of Android Version -->
     <string name="elixir_about_phone">About Phone</string>
 
+    <string name="android_info">Android Info</string>
+    <string name="elixir_info">ROM Info</string>
+    <string name="deviceinfo">Device Info</string>
+
 </resources>

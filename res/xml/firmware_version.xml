@@ -27,6 +27,10 @@
         android:layout="@layout/elixir_logo"
         android:selectable="false"/>
 
+    <PreferenceCategory
+	android:layout="@layout/custom_preference_category2"
+        android:title="@string/android_info">
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -35,30 +39,6 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
-
-    <!-- Elixir Version  -->
-    <Preference
-        android:key="Elixir_version"
-        android:title="@string/Elixir_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.ElixirVersionPreferenceController"/>
-
-    <!-- Device name -->
-    <Preference
-        android:key="about_device_name"
-        android:title="@string/about_device_name"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
-
-    <!-- Elixir Maintainer  -->
-    <Preference
-        android:key="Elixir_maintainer"
-        android:title="@string/Elixir_maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.ElixirMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
@@ -74,6 +54,50 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/custom_preference_category2"
+        android:title="@string/elixir_info">
+
+    <!-- Elixir Version  -->
+    <Preference
+        android:key="Elixir_version"
+        android:title="@string/Elixir_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ElixirVersionPreferenceController"/>
+
+    <!-- Elixir Maintainer  -->
+    <Preference
+        android:key="Elixir_maintainer"
+        android:title="@string/Elixir_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ElixirMaintainerPreferenceController"/>
+
+    <!-- SELinux -->
+    <Preference
+        android:key="selinux_status"
+        android:title="@string/selinux_status"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/custom_preference_category2"
+        android:title="@string/deviceinfo">
+
+    <!-- Device name -->
+    <Preference
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
     <!-- Baseband -->
     <Preference
@@ -93,14 +117,6 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
-    <!-- SELinux -->
-    <Preference
-        android:key="selinux_status"
-        android:title="@string/selinux_status"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
-
     <!-- Build -->
     <Preference
         android:key="os_build_number"
@@ -109,5 +125,5 @@
         android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
-
+   </PreferenceCategory>
 </PreferenceScreen>
