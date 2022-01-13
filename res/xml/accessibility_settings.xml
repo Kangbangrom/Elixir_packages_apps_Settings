@@ -23,17 +23,20 @@
 
     <PreferenceCategory
         android:key="user_installed_services_category"
-        android:persistent="false"
+	    android:persistent="false"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/user_installed_services_category_title"/>
 
     <PreferenceCategory
         android:key="screen_reader_category"
-        android:persistent="false"
+	    android:persistent="false"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/screen_reader_category_title"/>
 
     <PreferenceCategory
         android:key="display_category"
-        android:persistent="false"
+	    android:persistent="false"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/display_category_title">
 
         <Preference
@@ -76,7 +79,8 @@
 
     <PreferenceCategory
         android:key="interaction_control_category"
-        android:persistent="false"
+	    android:persistent="false"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/interaction_control_category_title">
 
         <Preference
@@ -106,7 +110,8 @@
 
     <PreferenceCategory
         android:key="captions_category"
-        android:persistent="false"
+	    android:persistent="false"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/captions_category_title">
 
         <Preference
@@ -137,7 +142,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="audio_category"
+	    android:key="audio_category"
+	    android:layout="@layout/custom_preference_category2"
         android:persistent="false"
         android:title="@string/audio_category_title">
 
@@ -161,7 +167,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:persistent="false"
+	    android:persistent="false"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/general_category_title">
 
         <Preference

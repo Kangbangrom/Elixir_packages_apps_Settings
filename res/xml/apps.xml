@@ -31,7 +31,8 @@
 
     <PreferenceCategory
         android:key="recent_apps_category"
-        android:title="@string/recent_app_category_title"
+	    android:layout="@layout/custom_preference_category2"
+	    android:title="@string/recent_app_category_title"
         android:order="-998"
         settings:searchable="false">
         <!-- Placeholder for a list of recent apps -->
@@ -50,7 +51,8 @@
     <PreferenceCategory
         android:key="general_category"
         android:title="@string/category_name_general"
-        android:order="-997"
+	    android:order="-997"
+	    android:layout="@layout/custom_preference_category2"
         android:visibility="gone"
         settings:searchable="false"/>
 

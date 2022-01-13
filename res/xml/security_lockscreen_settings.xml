@@ -20,7 +20,8 @@
     android:title="@string/lockscreen_settings_title">
 
     <PreferenceCategory
-        android:key="lockscreen_what_to_show"
+	    android:key="lockscreen_what_to_show"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/lockscreen_settings_what_to_show_category">
         <com.android.settings.RestrictedListPreference
             android:key="security_setting_lock_screen_notif"
@@ -76,7 +77,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="ambient_display_category_when_to_show"
+	    android:key="ambient_display_category_when_to_show"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/ambient_display_category_triggers"
         android:order="1000">
 
@@ -128,7 +130,8 @@
          any of the above settings (including dynamic) are specific to the work profile. -->
     <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"
-        android:title="@string/profile_section_header"
+	    android:title="@string/profile_section_header"
+	    android:layout="@layout/custom_preference_category2"
         android:order="1001"
         settings:searchable="false">
 

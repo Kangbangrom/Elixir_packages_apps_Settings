@@ -24,7 +24,7 @@
         android:key="bt_nearby_slice"
         android:title="@string/summary_placeholder"
         settings:controller="com.android.settings.slices.SlicePreferenceController"
-        settings:allowDividerBelow="true"/>
+        settings:allowDividerBelow="false"/>
 
     <PreferenceCategory
         android:key="available_device_list"
@@ -53,7 +53,8 @@
         settings:controller="com.android.settings.connecteddevice.AddDevicePreferenceController"/>
 
     <PreferenceCategory
-        android:key="previously_connected_devices"
+	    android:key="previously_connected_devices"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/connected_device_previously_connected_title"
         settings:controller="com.android.settings.connecteddevice.PreviouslyConnectedDevicePreferenceController">
 
@@ -71,7 +72,7 @@
         android:title="@string/connected_device_connections_title"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.connecteddevice.AdvancedConnectedDeviceDashboardFragment"
-        settings:allowDividerAbove="true"
+        settings:allowDividerAbove="false"
         settings:controller="com.android.settings.connecteddevice.AdvancedConnectedDeviceController"/>
 
     <com.android.settingslib.widget.FooterPreference

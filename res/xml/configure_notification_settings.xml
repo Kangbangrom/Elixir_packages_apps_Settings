@@ -19,7 +19,8 @@
                   android:title="@string/configure_notification_settings">
 
     <PreferenceCategory
-        android:key="general_notifications_category"
+        android:layout="@layout/custom_preference_category2"
+	android:key="general_notifications_category"
         android:title="@string/general_notification_header">
         <!-- See all apps button -->
         <Preference
@@ -46,7 +47,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="conversation_category"
+	    android:key="conversation_category"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/conversation_notifs_category">
         <Preference
             android:key="conversations"
@@ -67,7 +69,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="configure_notifications_lock"
+	    android:key="configure_notifications_lock"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/lock_screen_notifications_title">
         <Preference
             android:key="notification_access"
@@ -121,7 +124,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="advanced_section_header"
+	    android:key="advanced_section_header"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/advanced_section_header">
         <com.android.settingslib.RestrictedPreference
             android:key="zen_mode_notifications"

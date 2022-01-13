@@ -21,7 +21,8 @@
     android:title="@string/display_settings"
     settings:keywords="@string/keywords_display">
 
-    <PreferenceCategory
+<PreferenceCategory
+	android:layout="@layout/custom_preference_category2"
         android:title="@string/category_name_brightness">
 
         <com.android.settingslib.RestrictedPreference
@@ -39,6 +40,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/category_name_lock_display">
 
         <Preference
@@ -57,6 +59,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/category_name_appearance">
 
         <com.android.settings.display.darkmode.DarkModePreference
@@ -86,6 +89,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/category_name_color">
 
         <com.android.settings.widget.PrimarySwitchPreference
@@ -104,6 +108,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/category_name_display_controls">
 
         <SwitchPreference
