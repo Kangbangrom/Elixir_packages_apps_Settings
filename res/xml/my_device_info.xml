@@ -30,7 +30,8 @@
 
     <PreferenceCategory
         android:key="basic_info_category"
-        android:selectable="false"
+	    android:selectable="false"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/my_device_info_basic_info_category_title">
 
         <!-- Device name -->
@@ -89,7 +90,8 @@
 
     <PreferenceCategory
         android:key="device_detail_category"
-        android:selectable="false"
+	    android:selectable="false"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/my_device_info_device_details_category_title">
 
         <!-- SIM status -->
@@ -133,6 +135,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/my_device_info_device_identifiers_category_title">
 
         <!--IP address -->

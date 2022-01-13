@@ -28,6 +28,7 @@
         android:key="action_buttons"/>
 
     <PreferenceCategory
+	android:layout="@layout/custom_preference_category2"
         android:title="@string/battery_detail_manage_title">
 
         <com.android.settingslib.widget.SelectorWithWidgetPreference

@@ -23,7 +23,8 @@
 
     <PreferenceCategory
         android:key="passwords_category"
-        android:order="10"
+	    android:order="10"
+	    android:layout="@layout/custom_preference_category2"
         android:persistent="false"
         android:title="@string/autofill_passwords"
         settings:controller="com.android.settings.applications.autofill.PasswordsPreferenceController"
@@ -31,7 +32,8 @@
 
     <PreferenceCategory
         android:key="default_service_category"
-        android:order="20"
+	    android:order="20"
+	    android:layout="@layout/custom_preference_category2"
         android:title="@string/autofill_app">
 
         <com.android.settings.widget.GearPreference
@@ -46,7 +48,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="dashboard_tile_placeholder"
+	    android:key="dashboard_tile_placeholder"
+	    android:layout="@layout/custom_preference_category2"
         android:order="130"/>
 
     <SwitchPreference
@@ -54,7 +57,7 @@
         android:title="@string/auto_sync_account_title"
         android:summary="@string/auto_sync_account_summary"
         android:order="202"
-        settings:allowDividerAbove="true"/>
+        settings:allowDividerAbove="false"/>
 
     <SwitchPreference
         android:key="auto_sync_work_account_data"

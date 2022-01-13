@@ -25,6 +25,7 @@
         android:key="battery_graph"/>
 
     <PreferenceCategory
+	    android:layout="@layout/custom_preference_category2"
         android:key="app_list"/>
 
     <com.android.settingslib.widget.FooterPreference
