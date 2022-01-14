@@ -60,6 +60,12 @@
             settings:keywords="@string/keywords_dark_ui_mode"
             settings:widgetLayout="@null" />
 
+        <SwitchPreference
+            android:title="@string/pitch_colors"
+            android:key="pitch_theme"
+            android:summary="@string/pitch_colors_summary"
+            android:dependency="dark_ui_mode" />
+
         <Preference
             android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
             android:key="font_size"
