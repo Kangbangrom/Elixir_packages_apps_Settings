@@ -22,7 +22,7 @@ import android.telephony.CarrierConfigManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.os.SystemProperties;
-
+import android.os.Build;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
@@ -76,7 +76,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        CharSequence summary = mContext.getString(R.string.summary_empty);
+        CharSequence summary = mContext.getString(R.string.android_version_summary,
+                Build.VERSION.RELEASE_OR_CODENAME);
         return summary;
     }
 
