@@ -170,11 +170,6 @@
             android:summary="@string/show_operator_name_summary"
             android:title="@string/show_operator_name_title" />
 
-        <Preference
-            android:fragment="com.android.settings.dream.DreamSettings"
-            android:key="screensaver"
-            android:title="@string/screensaver_settings_title" />
-
         <SwitchPreference
             android:key="camera_gesture"
             android:summary="@string/camera_gesture_desc"
