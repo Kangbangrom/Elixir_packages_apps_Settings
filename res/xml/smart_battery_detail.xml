@@ -15,7 +15,6 @@
     <SwitchPreference
         android:key="smart_battery"
         android:summary="@string/smart_battery_summary"
-        android:title="@string/smart_battery_title"
         settings:controller="com.android.settings.fuelgauge.SmartBatteryPreferenceController" />
 
     <SwitchPreference
