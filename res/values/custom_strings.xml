@@ -85,4 +85,6 @@
     <!-- About Phone screen, Device Codename -->
     <string name="about_device_name">Device</string>
 
+    <string name="search_text_home">What are you looking for ?</string>
+
 </resources>
