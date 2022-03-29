@@ -926,4 +926,8 @@
            parent="@*android:style/TextAppearance.DeviceDefault">
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+
+    <style name="TextAppearance.HomepagePreferenceTitle" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">22sp</item>
+    </style>
 </resources>
