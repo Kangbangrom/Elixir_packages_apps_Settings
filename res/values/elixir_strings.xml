@@ -17,4 +17,5 @@
     <string name="elixir_info">ROM Info</string>
     <string name="deviceinfo">Device Info</string>
 
+    <string name="usercard_summary">Current active user, tap for more information</string>
 </resources>
