@@ -1006,4 +1006,17 @@
         <item name="android:clipToPadding">false</item>
     </style>
 
+    <style name="TextAppearance.BlazeInfoTitle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">12sp</item> <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.BlazeInfoSummary"> 
+        <item name="android:textColor">?android:attr/textColorSecondary</item> 
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+        <item name="android:fontFamily">sans-serif-book</item>
+    </style>
+
 </resources>
