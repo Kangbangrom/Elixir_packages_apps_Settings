@@ -182,11 +182,6 @@
     <string name="aosp_security_settings_title">Stock lock options</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
-
-    <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
 	    
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">High touch polling rate</string>
