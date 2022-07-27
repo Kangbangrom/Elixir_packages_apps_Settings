@@ -113,8 +113,7 @@
 	android:title="@string/baseband_version"
 	settings:layout="@layout/xd_pref_card_mid"
         android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
+	settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
     <!-- Kernel -->
     <Preference
