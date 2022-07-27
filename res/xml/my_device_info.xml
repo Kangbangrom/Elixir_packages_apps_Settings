@@ -38,7 +38,8 @@
         <com.android.settings.widget.ValidatedEditTextPreference
             android:key="device_name"
             android:order="1"
-            android:title="@string/my_device_info_device_name_preference_title"
+		settings:layout="@layout/xd_pref_card_top"
+		android:title="@string/my_device_info_device_name_preference_title"
             android:summary="@string/summary_placeholder"
             settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
             settings:enableCopying="true"/>
@@ -46,7 +47,8 @@
         <!-- Account name -->
         <Preference
             android:key="branded_account"
-            android:order="2"
+		android:order="2"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/my_device_info_account_preference_title"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
@@ -55,7 +57,8 @@
         <!-- Phone number -->
         <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
             android:key="phone_number"
-            android:order="3"
+		android:order="3"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/status_number"
             android:summary="@string/summary_placeholder"
             android:selectable="false"
@@ -98,7 +101,8 @@
         <Preference
             android:key="sim_status"
             android:order="18"
-            android:title="@string/sim_status_title"
+		settings:layout="@layout/xd_pref_card_mid"
+		android:title="@string/sim_status_title"
             settings:keywords="@string/keywords_sim_status"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"/>
@@ -108,7 +112,8 @@
             android:key="device_model"
             android:order="31"
             android:title="@string/model_info"
-            android:summary="@string/summary_placeholder"
+		android:summary="@string/summary_placeholder"
+		settings:layout="@layout/xd_pref_card_mid"
             android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
             settings:enableCopying="true"
             settings:keywords="@string/keywords_model_and_hardware"
@@ -119,7 +124,8 @@
             android:key="imei_info"
             android:order="32"
             android:title="@string/status_imei"
-            android:summary="@string/summary_placeholder"
+		android:summary="@string/summary_placeholder"
+		settings:layout="@layout/xd_pref_card_mid"
             settings:keywords="@string/keywords_imei_info"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
@@ -129,7 +135,8 @@
             android:key="firmware_version"
             android:order="42"
             android:title="@string/firmware_version"
-            android:summary="@string/summary_placeholder"
+		android:summary="@string/summary_placeholder"
+		settings:layout="@layout/xd_pref_card_bot"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
     </PreferenceCategory>
@@ -142,7 +149,8 @@
         <Preference
             android:key="wifi_ip_address"
             android:order="44"
-            android:title="@string/wifi_ip_address"
+		android:title="@string/wifi_ip_address"
+		settings:layout="@layout/xd_pref_card_top"
             android:summary="@string/summary_placeholder"
             android:selectable="false"
             settings:enableCopying="true"/>
@@ -150,7 +158,8 @@
         <!-- Wi-Fi MAC address -->
         <Preference
             android:key="saved_accesspoints_wifi_mac_address"
-            android:order="45"
+		android:order="45"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/status_wifi_mac_address"
             android:summary="@string/view_saved_network"
             android:fragment="com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2"
@@ -161,7 +170,8 @@
             android:key="wifi_mac_address"
             android:order="46"
             android:title="@string/status_device_wifi_mac_address"
-            android:summary="@string/summary_placeholder"
+		android:summary="@string/summary_placeholder"
+		settings:layout="@layout/xd_pref_card_mid"
             android:selectable="false"
             settings:enableCopying="true"/>
 
@@ -169,7 +179,8 @@
         <Preference
             android:key="bt_address"
             android:order="47"
-            android:title="@string/status_bt_address"
+		android:title="@string/status_bt_address"
+		settings:layout="@layout/xd_pref_card_mid"
             android:summary="@string/summary_placeholder"
             android:selectable="false"
             settings:enableCopying="true"/>
@@ -178,7 +189,8 @@
         <Preference
             android:key="up_time"
             android:order="48"
-            android:title="@string/status_up_time"
+		android:title="@string/status_up_time"
+		settings:layout="@layout/xd_pref_card_mid"
             android:summary="@string/summary_placeholder"
             android:selectable="false"/>
 
@@ -186,7 +198,7 @@
         <Preference
             android:key="manual"
             android:order="50"
-            android:title="@string/manual">
+		android:title="@string/manual">
             <intent android:action="android.settings.SHOW_MANUAL"/>
         </Preference>
 
@@ -208,7 +220,8 @@
         <Preference
             android:key="build_number"
             android:order="53"
-            android:title="@string/build_number"
+		settings:layout="@layout/xd_pref_card_bot"
+		android:title="@string/build_number"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>

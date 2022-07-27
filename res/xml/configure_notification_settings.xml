@@ -25,7 +25,8 @@
         <!-- See all apps button -->
         <Preference
             android:key="all_notifications"
-            android:order="10"
+		android:order="10"
+		settings:layout="@layout/xd_pref_card_top"
             android:title="@string/app_notification_field"
             android:summary="@string/app_notification_field_summary"
             android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
@@ -36,7 +37,8 @@
         </Preference>
         <Preference
             android:key="notification_history"
-            android:order="11"
+		android:order="11"
+		settings:layout="@layout/xd_pref_card_bot"
             android:title="@string/notification_history"
             android:summary="@string/notification_history_summary">
             <intent
@@ -52,7 +54,8 @@
         android:title="@string/conversation_notifs_category">
         <Preference
             android:key="conversations"
-            android:order="1"
+		android:order="1"
+		settings:layout="@layout/xd_pref_card_top"
             android:title="@string/conversations_category_title"
             android:summary=" "
             settings:controller="com.android.settings.notification.ConversationListSummaryPreferenceController"
@@ -60,7 +63,8 @@
         />
         <Preference
             android:key="notification_bubbles"
-            android:order="2"
+		android:order="2"
+		settings:layout="@layout/xd_pref_card_bot"
             android:title="@string/notification_bubbles_title"
             android:summary="@string/notifications_bubble_setting_on_summary"
             settings:controller="com.android.settings.notification.BubbleSummaryNotificationPreferenceController"
@@ -74,7 +78,8 @@
         android:title="@string/lock_screen_notifications_title">
         <Preference
             android:key="notification_access"
-            android:order="12"
+		android:order="12"
+		settings:layout="@layout/xd_pref_card_top"
             android:title="@string/manage_notification_access_title"
             android:summary="@string/manage_notification_access_summary"
             android:fragment="com.android.settings.notification.NotificationAccessSettings"
@@ -82,28 +87,32 @@
         <!-- When device is locked -->
         <com.android.settings.RestrictedListPreference
             android:key="lock_screen_notifications"
-            android:order="13"
+		android:order="13"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/lock_screen_notifs_title"
             android:singleLineTitle="false"
             android:summary="@string/summary_placeholder" />
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="lock_screen_redact"
-            android:order="14"
+		android:order="14"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/lock_screen_notifs_redact"
             android:summary="@string/lock_screen_notifs_redact_summary"
             settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="lock_screen_work_redact"
-            android:order="15"
+		android:order="15"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/lock_screen_notifs_redact_work"
             android:summary="@string/lock_screen_notifs_redact_work_summary"
             settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
 
         <com.android.settings.custom.preference.SecureSettingListPreference
             android:key="face_unlock_method"
-            android:order="16"
+		android:order="16"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/face_unlock_method_title"
             android:summary="%s"
             android:dialogTitle="@string/face_unlock_method_title"
@@ -115,7 +124,8 @@
 
         <SwitchPreference
             android:key="notification_lockscreen_bypass"
-            android:order="17"
+		android:order="17"
+		settings:layout="@layout/xd_pref_card_bot"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
             settings:searchable="false"
@@ -147,39 +157,45 @@
         </com.android.settingslib.RestrictedPreference>
 
         <Preference
-            android:title="@string/notification_log_title"
+		android:title="@string/notification_log_title"
+		settings:layout="@layout/xd_pref_card_top"
             android:summary="@string/notification_log_summary"
             android:fragment="com.android.settings.notification.history.NotificationStation" />
 
         <SwitchPreference
              android:key="silent_icons"
-             android:order="19"
+		android:order="19"
+		settings:layout="@layout/xd_pref_card_mid"
              android:title="@string/silent_notifications_status_bar"
              settings:controller="com.android.settings.notification.SilentStatusBarPreferenceController"/>
 
         <SwitchPreference
             android:key="show_snooze_options"
-            android:order="20"
+		android:order="20"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/snooze_options_title"
             settings:controller="com.android.settings.notification.SnoozeNotificationPreferenceController" />
 
         <!-- Notification badging -->
         <SwitchPreference
             android:key="notification_badging"
-            android:order="21"
+		android:order="21"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/notification_badging_title"
             settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
 
         <!-- Pulse notification light, on devices that support it -->
         <SwitchPreference
             android:key="notification_pulse"
-            android:order="22"
+		android:order="22"
+		settings:layout="@layout/xd_pref_card_mid"
             android:title="@string/notification_pulse_title"
             settings:controller="com.android.settings.notification.PulseNotificationPreferenceController"/>
 
         <SwitchPreference
             android:key="notification_assistant"
-            android:order="23"
+		android:order="23"
+		settings:layout="@layout/xd_pref_card_bot"
             android:title="@string/notification_assistant_title"
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
