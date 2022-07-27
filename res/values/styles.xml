@@ -988,6 +988,15 @@
         <item name="android:clipToPadding">false</item>
     </style>
 
+    <style name="xd_pref_card_mid2">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_mid2</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
     <style name="xd_pref_card_bot">
         <item name="android:layout_marginTop">0dp</item>
         <item name="android:layout_marginBottom">4dp</item>
