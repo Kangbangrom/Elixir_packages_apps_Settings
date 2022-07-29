@@ -22,10 +22,10 @@
     settings:keywords="@string/keywords_android_version">
 
     <com.android.settingslib.widget.LayoutPreference
-        android:key="blaze_info"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.ElixirLogoPreferenceController"
-        android:layout="@layout/about_phone_info"
-	android:selectable="true" />
+        android:key="about_elixir"
+        android:layout="@layout/about_elixir"
+        android:selectable="true" 
+	settings:controller="com.android.settings.deviceinfo.firmwareversion.ElixirLogoPreferenceController"/>
 
     <PreferenceCategory
 	android:layout="@layout/custom_preference_category2"
