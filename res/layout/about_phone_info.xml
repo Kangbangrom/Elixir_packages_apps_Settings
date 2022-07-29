@@ -22,34 +22,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/phone_image"
-        android:layout_width="100dp"
-        android:layout_height="205dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="15dp"
-        app:cardElevation="5dp"
-        app:cardCornerRadius="18dp"
-        app:strokeColor="?android:attr/textColorPrimary"
-        app:strokeWidth="3dp">
-
-        <com.android.utils.aboutWallpaperView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            android:gravity="center"
-            android:elevation="0dp"
-            android:contentDescription="@null"
-            android:orientation="vertical" />
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:src="@drawable/empty_logo" />
-
-    </com.google.android.material.card.MaterialCardView>
-    
     <TextView
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
