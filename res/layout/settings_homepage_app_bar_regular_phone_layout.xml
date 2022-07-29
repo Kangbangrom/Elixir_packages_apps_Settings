@@ -34,7 +34,9 @@
 
     <TextView
         android:id="@+id/homepage_title"
-        android:text="@string/settings_label"
+	android:fontFamily="evolvesans-bold"
+        android:textSize="45dp"    
+	android:text="@string/settings_label"
         style="@style/HomepageTitleText"/>
 
     <FrameLayout
