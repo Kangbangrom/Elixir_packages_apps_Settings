@@ -27,7 +27,6 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
-import com.android.settings.utils.BlazeSpecUtils;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.widget.LayoutPreference;
 import com.android.settingslib.Utils;
@@ -45,14 +44,6 @@ public class BlazeInfoPreferenceController extends AbstractPreferenceController 
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         final LayoutPreference blazeInfoPreference = screen.findPreference(KEY_BLAZE_INFO);
-        final TextView processor = (TextView) blazeInfoPreference.findViewById(R.id.processor_message);
-        final TextView storage = (TextView) blazeInfoPreference.findViewById(R.id.storage_code_message);
-        final TextView battery = (TextView) blazeInfoPreference.findViewById(R.id.battery_type_message);
-        final TextView infoScreen = (TextView) blazeInfoPreference.findViewById(R.id.screen_message);
-        processor.setText(BlazeSpecUtils.getProcessorModel());
-        storage.setText(String.valueOf(BlazeSpecUtils.getTotalInternalMemorySize()) + "GB ROM + " + String.valueOf(BlazeSpecUtils.getTotalRAM()) + "GB RAM");
-        battery.setText(BlazeSpecUtils.getBatteryCapacity(mContext) + " mAh");
-        infoScreen.setText(BlazeSpecUtils.getScreenRes(mContext));
     }
 
     @Override
