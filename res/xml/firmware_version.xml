@@ -18,15 +18,14 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/elixir_about_phone"
+    android:title=" "
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Elixir logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="elixir_logo"
-        android:layout="@layout/elixir_logo"
-	android:selectable="true"
-	settings:controller="com.android.settings.deviceinfo.firmwareversion.ElixirLogoPreferenceController"/>
+    android:key="blaze_info"
+    settings:controller="com.android.settings.deviceinfo.firmwareversion.ElixirLogoPreferenceController"
+    android:layout="@layout/about_phone_info"
+    android:selectable="true" />
 
     <PreferenceCategory
 	android:layout="@layout/custom_preference_category2"
