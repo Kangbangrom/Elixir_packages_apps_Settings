@@ -228,7 +228,7 @@ public class TopLevelSettings extends DashboardFragment implements
                 preference.setLayoutResource(R.layout.top_level_preference_middle);
             }
             if (key.equals("top_level_wallpaper")){
-                preference.setLayoutResource(R.layout.top_level_preference_middle);
+                preference.setLayoutResource(R.layout.top_level_preference_bottom);
             }
             if (key.equals("top_level_battery")){
                 preference.setLayoutResource(R.layout.top_level_preference_top);
@@ -252,7 +252,7 @@ public class TopLevelSettings extends DashboardFragment implements
                 preference.setLayoutResource(R.layout.top_level_preference_bottom);
             }
             if (key.equals("top_level_accessibility")){
-                preference.setLayoutResource(R.layout.top_level_preference_middle);
+                preference.setLayoutResource(R.layout.top_level_preference_top);
             }
             if (key.equals("top_level_security")){
                 preference.setLayoutResource(R.layout.top_level_preference_middle);

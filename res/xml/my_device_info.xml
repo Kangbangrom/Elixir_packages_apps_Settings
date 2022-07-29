@@ -20,7 +20,7 @@
     android:title=" ">
 
     <com.android.settingslib.widget.LayoutPreference
-    android:key="blaze_info"
+    android:key="about_phone"
     android:layout="@layout/about_phone_info"
     android:selectable="false" />
 
