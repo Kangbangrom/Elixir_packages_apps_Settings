@@ -87,4 +87,10 @@
 
     <string name="search_text_home">What are you looking for ?</string>
 
+    <!-- xd. Build Status -->
+    <string name="xd_build_status">Your devices is not officially supported!</string>
+    <string name="xd_build_maintained_summary">Maintained by %s</string>
+    <string name="xd_build_unmaintained_summary">This build are not maintained officially</string>
+    <string name="xd_summary_placeholder">loremipsum</string>
+
 </resources>
