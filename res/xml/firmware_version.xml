@@ -27,6 +27,14 @@
         android:layout="@layout/about_elixir"
         android:selectable="true" />
 
+    <Preference
+        android:key="xd_build_status"
+        android:title="@string/xd_build_status"
+        android:summary="@string/xd_summary_placeholder"
+        android:icon="@drawable/xd_build"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildMaintainerPreferenceController"
+        settings:layout="@layout/xd_pref_card_sin-accent"/>
+
     <PreferenceCategory
 	android:layout="@layout/custom_preference_category2"
         android:title="@string/android_info">
