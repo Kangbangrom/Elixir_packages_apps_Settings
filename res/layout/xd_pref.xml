@@ -51,7 +51,7 @@
         <TextView
             android:id="@android:id/title"
             android:textSize="16sp"
-            android:textColor="@android:color/system_neutral1_50"
+            android:textColor="#ffffff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="marquee"
@@ -61,7 +61,7 @@
         <TextView
             android:id="@android:id/summary"
             android:textSize="14sp"
-            android:textColor="@android:color/system_neutral1_100"
+            android:textColor="#ffffff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@android:id/title"
