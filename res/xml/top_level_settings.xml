@@ -33,7 +33,7 @@
         android:key="top_level_network"
         android:order="-160"
         android:title="@string/network_dashboard_title"
-        android:summary="@string/summary_placeholder"
+        android:summary="@string/elixir_network_dashboard_summary_mobile"
         settings:highlightableMenuKey="@string/menu_key_network"
         settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
 
@@ -43,7 +43,7 @@
         android:key="top_level_connected_devices"
         android:order="-150"
         android:title="@string/connected_devices_dashboard_title"
-        android:summary="@string/connected_devices_dashboard_default_summary"
+	android:summary="@string/elixir_connected_devices_dashboard_default_summary"
         settings:highlightableMenuKey="@string/menu_key_connected_devices"
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
     
@@ -53,7 +53,7 @@
         android:key="top_level_display"
         android:order="-140"
         android:title="@string/display_settings"
-        android:summary="@string/display_dashboard_summary"
+        android:summary="@string/elixir_display_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_display"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
@@ -71,7 +71,7 @@
         android:key="top_level_wallpaper"
         android:order="-120"
         android:title="@string/wallpaper_settings_title"
-        android:summary="@string/wallpaper_dashboard_summary"
+        android:summary="@string/elixir_wallpaper_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_wallpaper"
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
@@ -102,7 +102,7 @@
         android:key="top_level_notifications"
         android:order="-90"
         android:title="@string/configure_notification_settings"
-        android:summary="@string/notification_dashboard_summary"
+        android:summary="@string/elixir_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_notifications"/>
 
     <com.android.settings.widget.HomepagePreference
@@ -111,7 +111,7 @@
         android:key="top_level_sound"
         android:order="-80"
         android:title="@string/sound_settings"
-        android:summary="@string/sound_dashboard_summary"
+        android:summary="@string/elixir_sound_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_sound"/>
 
     <com.android.settings.widget.HomepagePreference
@@ -120,7 +120,7 @@
         android:key="top_level_apps"
         android:order="-70"
         android:title="@string/apps_dashboard_title"
-        android:summary="@string/app_and_notification_dashboard_summary"
+        android:summary="@string/elixir_app_and_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_apps"/>
 
    <com.android.settings.widget.HomepagePreference
@@ -129,7 +129,7 @@
         android:key="top_level_accounts"
         android:order="-60"
         android:title="@string/account_dashboard_title"
-        android:summary="@string/summary_placeholder"
+        android:summary="@string/elixir_account_dashboard_default_summary"
         settings:highlightableMenuKey="@string/menu_key_accounts"
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
@@ -139,7 +139,7 @@
         android:key="top_level_security"
         android:order="-50"
         android:title="@string/security_settings_title"
-        android:summary="@string/security_dashboard_summary"
+        android:summary="@string/elixir_security_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_security"
         settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
 
@@ -149,7 +149,7 @@
         android:key="top_level_privacy"
         android:order="-40"
         android:title="@string/privacy_dashboard_title"
-        android:summary="@string/privacy_dashboard_summary"
+        android:summary="@string/elixir_privacy_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_privacy"/>
 
    <com.android.settings.widget.HomepagePreference
@@ -168,14 +168,14 @@
         android:key="top_level_accessibility"
         android:order="-20"
         android:title="@string/accessibility_settings"
-        android:summary="@string/accessibility_settings_summary"
+        android:summary="@string/elixir_accessibility_settings_summary"
         settings:highlightableMenuKey="@string/menu_key_accessibility"
         settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:key="top_level_emergency"
         android:title="@string/emergency_settings_preference_title"
-        android:summary="@string/emergency_dashboard_summary"
+        android:summary="@string/elixir_emergency_dashboard_summary"
         android:icon="@drawable/ic_settings_emergency"
         android:order="-10"
         android:fragment="com.android.settings.emergency.EmergencyDashboardFragment"
@@ -187,7 +187,7 @@
         android:key="top_level_system"
         android:order="10"
         android:title="@string/header_category_system"
-        android:summary="@string/system_dashboard_summary"
+        android:summary="@string/elixir_system_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_system"/>
 
     <com.android.settings.widget.HomepagePreference
