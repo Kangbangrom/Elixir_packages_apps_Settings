@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="marquee"
             android:singleLine="true"
-            style="@style/xd_text_primary" />
+            style="@style/official_text_primary" />
 
         <TextView
             android:id="@android:id/summary"
