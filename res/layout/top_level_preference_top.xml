@@ -11,16 +11,8 @@
     android:paddingEnd="15dp"
     android:paddingStart="25dp">
 
-    <ImageView
-        android:id="@android:id/icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
-	    android:layout_height="match_parent"
+	android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:gravity="center_vertical"
         android:orientation="vertical"
