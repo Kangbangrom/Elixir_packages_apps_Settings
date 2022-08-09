@@ -34,7 +34,7 @@
         android:title="@string/my_device_info_device_name_preference_title"
         settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
         settings:enableCopying="true"
-        settings:layout="@layout/top_level_preference_top" />
+        settings:layout="@layout/aboutphone_preference_top" />
 
     <!-- Android version -->
     <Preference
@@ -44,7 +44,7 @@
         android:summary="@string/summary_placeholder"
         android:title="@string/firmware_version"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"
-        settings:layout="@layout/top_level_preference_bottom" />
+        settings:layout="@layout/aboutphone_preference_bottom" />
 
     <!-- Build number -->
     <Preference
@@ -54,7 +54,7 @@
         android:title="@string/build_number"
         settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"
         settings:enableCopying="true"
-        settings:layout="@layout/top_level_preference_top" />
+        settings:layout="@layout/aboutphone_preference_top" />
 
     <!-- Model & hardware -->
     <Preference
@@ -66,7 +66,7 @@
         settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"
         settings:enableCopying="true"
         settings:keywords="@string/keywords_model_and_hardware"
-        settings:layout="@layout/top_level_preference_bottom" />
+        settings:layout="@layout/aboutphone_preference_bottom" />
 
     <!-- Bottom category -->
     <!-- Device up time -->
@@ -76,7 +76,7 @@
         android:selectable="false"
         android:summary="@string/summary_placeholder"
         android:title="@string/status_up_time"
-        settings:layout="@layout/top_level_preference_top" />
+        settings:layout="@layout/aboutphone_preference_top" />
 
 
     <!-- Legal information -->
@@ -86,14 +86,14 @@
         android:key="legal_container"
         android:summary="@string/legal_summary"
         android:title="@string/legal_information"
-        settings:layout="@layout/top_level_preference_bottom" />
+        settings:layout="@layout/aboutphone_preference_bottom" />
 
 
     <!-- Prefs below are usually hidden -->
     <!-- Regulatory labels -->
     <Preference
         android:key="regulatory_info"
-        settings:layout="@layout/top_level_preference_top"
+        settings:layout="@layout/aboutphone_preference_top"
         android:title="@string/regulatory_labels">
         <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
     </Preference>
@@ -101,7 +101,7 @@
     <!-- Safety & regulatory manual -->
     <Preference
         android:key="safety_info"
-        settings:layout="@layout/top_level_preference_middle"
+        settings:layout="@layout/aboutphone_preference_middle"
         android:title="@string/safety_and_regulatory_info">
         <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
     </Preference>
@@ -109,7 +109,7 @@
     <!-- Manual -->
     <Preference
         android:key="manual"
-        settings:layout="@layout/top_level_preference_middle"
+        settings:layout="@layout/aboutphone_preference_middle"
         android:title="@string/manual">
         <intent android:action="android.settings.SHOW_MANUAL" />
     </Preference>
@@ -118,13 +118,13 @@
     <Preference
         android:key="device_feedback"
         android:title="@string/device_feedback"
-        settings:layout="@layout/top_level_preference_middle"
+        settings:layout="@layout/aboutphone_preference_middle"
         settings:keywords="@string/keywords_device_feedback" />
 
     <!-- Device FCC equipment id -->
     <Preference
         android:key="fcc_equipment_id"
-        settings:layout="@layout/top_level_preference_bottom"
+        settings:layout="@layout/aboutphone_preference_bottom"
         android:summary="@string/summary_placeholder"
         android:title="@string/fcc_equipment_id" />
 
