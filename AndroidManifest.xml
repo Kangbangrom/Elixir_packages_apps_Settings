@@ -4491,5 +4491,21 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Elixir additions -->
+        <activity android:name=".Settings$EssenceSettingsActivity"
+                  android:label="@string/extensions_title"
+                  android:icon="@drawable/ic_homepage_extensions"
+                  android:exported="true"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="org.elixir.essence.Essence"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/build_tweaks_summary_title"/>
+        </activity>
     </application>
 </manifest>
+

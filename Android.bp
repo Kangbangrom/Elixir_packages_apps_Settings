@@ -44,11 +44,19 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: [
+        "src/**/*.java", 
+        "src/**/*.kt", 
+        "Essence/src/**/*.java",
+    ],
+
     resource_dirs: [
         "res",
-        "TouchGestures/res"
+        "TouchGestures/res",
+        "Essence/res",
     ],
+
+    aaptflags: ["--extra-packages org.elixir.essence"],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -85,6 +93,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "SettingsLibMainSwitchPreference",
+        "kotlin-stdlib",
     ],
 
     libs: [
