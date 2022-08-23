@@ -68,7 +68,7 @@
     <!-- Build maintainer -->
     <Preference
         android:key="os_build_maintainer"
-        android:title="Build maintainer"
+        android:title="Build Maintainer"
         android:summary="@string/summary_placeholder"
 	settings:layout="@layout/xd_pref_card_mid"    
         settings:enableCopying="true"

@@ -20,7 +20,7 @@
     android:title=" ">
 
     <com.android.settingslib.widget.LayoutPreference
-    android:key="blaze_info"
+    android:key="about_info"
     android:layout="@layout/about_phone_info"
     android:selectable="false" />
 
@@ -54,7 +54,7 @@
         android:title="@string/build_number"
         settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"
         settings:enableCopying="true"
-        settings:layout="@layout/aboutphone_preference_top" />
+	settings:layout="@layout/aboutphone_preference_top" />
 
     <!-- Model & hardware -->
     <Preference
