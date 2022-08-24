@@ -93,4 +93,8 @@
     <string name="xd_build_unmaintained_summary">This build are not maintained officially</string>
     <string name="xd_summary_placeholder">loremipsum</string>
 
+    <!-- NavBar Inverse -->
+    <string name="navigation_bar_inverse_title">Invert Buttons</string>
+    <string name="navigation_bar_inverse_sum">Invert back and recents button</string>
+
 </resources>

@@ -36,5 +36,17 @@
         settings:controller="com.android.settings.gestures.ButtonNavigationSettingsAssistController"
     />
 
+  <PreferenceCategory
+        android:title="Buttons Customisation"
+        android:layout="@layout/custom_preference_category">
+
+        <SwitchPreference
+            android:key="navigation_bar_inverse"
+            android:title="@string/navigation_bar_inverse_title"
+            android:defaultValue="0"
+            settings:controller="com.android.settings.gestures.ButtonNavigationSettingsInvertController" />
+
+  </PreferenceCategory>
+
 </PreferenceScreen>
 
