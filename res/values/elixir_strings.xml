@@ -17,5 +17,19 @@
     <string name="elixir_info">ROM Info</string>
     <string name="deviceinfo">Device Info</string>
 
-    <string name="usercard_summary">Current active user, tap for more information</string>
+    <string name="usercard_summary">Current active user • Multiple users</string>
+    <string name="elixir_security_dashboard_summary">Screen lock • Find My Device</string>
+    <string name="elixir_wallpaper_dashboard_summary">Themed icons • Wallpaper Colors</string>
+    <string name="elixir_accessibility_settings_summary">TalkBack • Live Caption • Zoom </string>
+    <string name="elixir_network_dashboard_summary_mobile">Mobile • Wi\u2011Fi • Hotspot</string>
+    <string name="elixir_connected_devices_dashboard_default_summary">Bluetooth • Cast • Print</string>
+    <string name="elixir_app_and_notification_dashboard_summary">Recent apps • Default apps</string>
+    <string name="elixir_account_dashboard_default_summary">Passwords • Autofill • Synced accounts</string>
+    <string name="elixir_system_dashboard_summary">Language • Gestures • Time</string>
+    <string name="elixir_sound_dashboard_summary">Sound Mode • Ringtone • Haptics</string>
+    <string name="elixir_notification_dashboard_summary">Notification log • Do not disturb</string>
+    <string name="elixir_display_dashboard_summary">Dark theme • Font size • Brightness</string>
+    <string name="elixir_emergency_dashboard_summary">Emergency SOS • Medical info</string>
+    <string name="elixir_privacy_dashboard_summary">Permissions • Account activity</string>
+
 </resources>
