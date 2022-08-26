@@ -21,10 +21,10 @@
     <string name="elixir_security_dashboard_summary">Screen lock • Find My Device</string>
     <string name="elixir_wallpaper_dashboard_summary">Themed icons • Wallpaper Colors</string>
     <string name="elixir_accessibility_settings_summary">TalkBack • Live Caption • Zoom </string>
-    <string name="elixir_network_dashboard_summary_mobile">Mobile • Wi\u2011Fi • Hotspot</string>
+    <string name="elixir_network_dashboard_summary_mobile">Mobile • Wi-Fi • Hotspot</string>
     <string name="elixir_connected_devices_dashboard_default_summary">Bluetooth • Cast • Print</string>
     <string name="elixir_app_and_notification_dashboard_summary">Recent apps • Default apps</string>
-    <string name="elixir_account_dashboard_default_summary">Passwords • Autofill • Synced accounts</string>
+    <string name="elixir_account_dashboard_default_summary">Passwords • Autofill • Accounts</string>
     <string name="elixir_system_dashboard_summary">Language • Gestures • Time</string>
     <string name="elixir_sound_dashboard_summary">Sound Mode • Ringtone • Haptics</string>
     <string name="elixir_notification_dashboard_summary">Notification log • Do not disturb</string>

@@ -186,7 +186,7 @@
         android:fragment="com.android.settings.system.SystemDashboardFragment"
         android:icon="@drawable/ic_settings_system_dashboard_white"
         android:key="top_level_system"
-        android:order="-10"
+        android:order="30"
         android:title="@string/header_category_system"
         android:summary="@string/elixir_system_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_system"/>
@@ -195,28 +195,28 @@
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
         android:icon="@drawable/ic_phone_info"
         android:key="top_level_about_device"
-        android:order="10"
+        android:order="40"
         android:title="@string/about_settings"
         android:summary="@string/summary_placeholder"
         settings:highlightableMenuKey="@string/menu_key_about_device"
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:icon="@drawable/ic_help"
-        android:key="top_level_support"
-        android:order="20"
-        android:title="@string/page_tab_title_support"
-        android:summary="@string/support_summary"
-        settings:highlightableMenuKey="@string/menu_key_support"
-        settings:controller="com.android.settings.support.SupportPreferenceController"/>
-
-    <com.android.settings.widget.HomepagePreference
         android:icon="@drawable/ic_settings_safety_center"
         android:key="top_level_safety_center"
-        android:order="30"
+        android:order="70"
         android:title="@string/safety_center_title"
         android:summary="@string/safety_center_summary"
         settings:highlightableMenuKey="@string/menu_key_safety_center"
         settings:controller="com.android.settings.safetycenter.TopLevelSafetyCenterEntryPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
+        android:icon="@drawable/ic_help"
+        android:key="top_level_support"
+        android:order="100"
+        android:title="@string/page_tab_title_support"
+        android:summary="@string/support_summary"
+        settings:highlightableMenuKey="@string/menu_key_support"
+        settings:controller="com.android.settings.support.SupportPreferenceController"/>
 
 </PreferenceScreen>
