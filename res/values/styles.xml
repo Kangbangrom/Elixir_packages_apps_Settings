@@ -1022,4 +1022,30 @@
     <style name="TextAppearance.HomepagePreferenceTitle" parent="@android:style/TextAppearance.DeviceDefault">
         <item name="android:textSize">22sp</item>
     </style>
+
+    <style name="xd_dashboard_about_phone">
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:background">@drawable/xd_pref_card_sin</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- xd. Preference -->
+    <style name="xd_text_primary">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="xd_text_secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="xd_text_primary_medium">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
 </resources>

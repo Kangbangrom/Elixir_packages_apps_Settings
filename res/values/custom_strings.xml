@@ -108,4 +108,16 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
 
+    <string name="xd_dashboard_device">About phone</string>
+    <string name="xd_device_name">Device name</string>
+    <string name="xd_device_name_summary">Unknown</string>
+    <string name="xd_chipset_type">Chipset</string>
+    <string name="xd_chipset_type_summary">Unknown</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_gpu_summary">Unknown</string>
+    <string name="xd_camera_mp">Camera</string>
+    <string name="xd_camera_mp_summary">Unknown</string>
+    <string name="xd_screen_type">Screen</string>
+    <string name="xd_screen_type_summary">Unknown</string>
+
 </resources>
