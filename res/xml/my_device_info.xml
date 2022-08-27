@@ -19,10 +19,11 @@
     android:key="my_device_info_pref_screen"
     android:title=" ">
 
-    <Preference
-        android:key="about_device"
-        android:title="@string/xd_dashboard_device"
-	settings:layout="@layout/xd_dashboard_phone" />
+    <com.android.settingslib.widget.LayoutPreference
+    android:key="about_info"
+    android:layout="@layout/about_phone_info"
+    android:selectable="false" />
+
 
     <!-- Top category -->
     <!-- Device name -->
